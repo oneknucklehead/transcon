@@ -75,7 +75,7 @@ const ProductSection = () => {
         </div>
       </div>
       {/* <div> */}
-      {/* <ProductCarousel /> */}
+      <ProductCarousel />
       {/* <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -107,13 +107,13 @@ const ProductSection = () => {
           ))}
         </Swiper> */}
       {/* </div> */}
-      <div className="grid gap-8 justify-items-stretch grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+      {/* <div className="grid gap-8 justify-items-stretch grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
         {products.map(({ key, src, title, description }) => (
           <div key={key}>
             <ProductCard src={src} title={title} description={description} />
           </div>
         ))}
-      </div>
+      </div> */}
     </Container>
   );
 };
