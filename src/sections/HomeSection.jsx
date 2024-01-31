@@ -2,6 +2,12 @@ import React from "react";
 import imgSrc from "../assets/images/homeBg.png";
 import Container from "../components/Container.jsx";
 // ********LOGOS******* //
+import company1 from "../assets/images/company1.png";
+import company2 from "../assets/images/company2.png";
+import company3 from "../assets/images/company3.png";
+import company4 from "../assets/images/company4.png";
+import company5 from "../assets/images/company5.png";
+
 import appleLogo from "../assets/images/apple-logo.png";
 import microsoftLogo from "../assets/images/microsoft-logo.png";
 import samsungLogo from "../assets/images/samsung.png";
@@ -45,28 +51,28 @@ const HomeSection = () => {
         </div>
         {/* </div> */}
         <Container>
-          <div className="text-[#095DAB] underline decoration-[#75CDFFA1] flex flex-col justify-center items-center text-5xl font-bold pt-6 md:hidden">
-            <p>Revolutionize Your</p>
-            <p>Workplace Tech</p>
+          <div className="text-[#095DAB] underline decoration-[#75CDFFA1] flex flex-col justify-center items-center text-4xl md:text-5xl font-bold pt-6 md:hidden">
+            <p className="text-center">Revolutionize Your</p>
+            <p className="text-center">Workplace Tech</p>
           </div>
         </Container>
-        <div className="w-full flex mt-8 xl:mt-0 xl:absolute -bottom-5 justify-evenly">
-          <div className="bg-[#095DAB] w-[80%] lg:w-[70%] xl:w-[60%] rounded-xl py-3 px-8 flex flex-wrap gap-4 items-center justify-around">
-            <span className="w-[60px]">
-              <img className="" src={appleLogo} alt="apple logo" />
+        <div className="w-full flex mt-8 xl:mt-0 xl:absolute -bottom-8 justify-evenly">
+          <div className="bg-[#095DAB] w-[80%] lg:w-[70%] xl:w-[50%] rounded-xl py-4 px-3 flex flex-wrap gap-4 items-center justify-around">
+            <span className="w-20 md:w-28">
+              <img className="" src={company1} alt="apple logo" />
             </span>
-            <span className="w-40">
-              <img className="w-40" src={microsoftLogo} alt="microsoft logo" />
+            <span className="w-10 md:w-20">
+              <img className="w-20" src={company2} alt="microsoft logo" />
             </span>
-            {/* <span className=""> */}
-            <img className="w-40" src={samsungLogo} alt="Samsung logo" />
-            {/* </span> */}
-            {/* <span className="w-40"> */}
-            <img className="" src={dellLogo} alt="Dell logo" />
-            {/* </span> */}
-            {/* <span className=""> */}
-            <img className="" src={lenovoLogo} alt="Lenovo logo" />
-            {/* </span> */}
+            <span className="w-28">
+              <img className="" src={company3} alt="Samsung logo" />
+            </span>
+            <span className="w-24">
+              <img className="" src={company4} alt="Dell logo" />
+            </span>
+            <span className="w-24">
+              <img className="" src={company5} alt="Lenovo logo" />
+            </span>
           </div>
         </div>
       </div>

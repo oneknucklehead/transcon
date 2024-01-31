@@ -19,7 +19,7 @@ import ProductCarousel from "../components/ProductCarousel.jsx";
 const ProductSection = () => {
   return (
     <Container>
-      <div className="pt-14 pb-24 text-lg font-semibold text-center">
+      <div className="pt-14 pb-8 sm:pb-24 text-lg font-semibold text-center">
         Empower your office with state-of-the-art IT solutions. We are the
         foremost provider of IT supplies, automation equipment, and services,
         ensuring seamless productivity and innovation for your workplace.
@@ -51,7 +51,7 @@ const ProductSection = () => {
               <h2 className="font-bold text-2xl sm:text-4xl">
                 Multi-Function Laser Printer (Mono & Colour)
               </h2>
-              <p className=" sm:text-lg">
+              <p className="text-sm sm:text-lg">
                 SIMPLE, SECURE AND CONVENIENT PRINTING SOLUTIONS.
               </p>
               {/* </div> */}
@@ -68,7 +68,7 @@ const ProductSection = () => {
             </div>
           </div>
           <div className=" sm:col-span-4">
-            <h2 className="font-bold text-4xl">
+            <h2 className="font-bold break-words text-4xl md:text-5xl">
               The best equipment available for your office or remote workers.
             </h2>
           </div>

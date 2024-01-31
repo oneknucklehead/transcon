@@ -42,8 +42,8 @@ const ProductCard = ({ key, src, title, description }) => {
         ))}
       </Swiper>
 
-      <div className="text-left break-words">
-        <h2 className="text-3xl font-bold pt-4">{title}</h2>
+      <div className="text-center md:text-left break-words">
+        <h2 className="text-2xl font-bold pt-4">{title}</h2>
         <p className="sm:text-lg pt-3">{description}</p>
       </div>
     </div>

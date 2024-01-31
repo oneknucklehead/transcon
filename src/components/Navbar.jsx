@@ -5,9 +5,14 @@ const Navbar = () => {
   const [openSidebar, setOpenSidebar] = useState(false);
 
   return (
-    <div className="fixed z-50 w-full top-0">
+    <div className="fixed z-50 w-full top-0 ">
       <Container>
-        <div className="bg-[#095DAB] flex p-4 rounded-xl mt-4 justify-between items-center">
+        <div
+          className="bg-[#095DAB] flex p-4 rounded-xl mt-4 justify-between items-center"
+          style={{
+            boxShadow: "0px 0px 20px 0px rgba(122,179,232,0.8)",
+          }}
+        >
           <div>
             <a href="#" className="text-2xl font-bold text-gray-800">
               <span className="w-[120px]">
@@ -29,7 +34,7 @@ const Navbar = () => {
               Book Now!
             </button>
           </div>
-          <div className="block md:hidden">
+          <div className="flex items-center justify-center md:hidden">
             <button className="space-y-1 group">
               <div className="w-6 h-[3px] bg-white"></div>
               <div className="w-6 h-[3px] bg-white"></div>

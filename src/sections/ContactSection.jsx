@@ -18,20 +18,22 @@ const ContactSection = () => {
         {/* CONTACT SECTION */}
         <div className="w-full lg:w-[75%] mx-auto">
           <h3 className="text-4xl font-bold">Contact Us Now!</h3>
-          <p>Fill the form with your requirements & we will get back to you!</p>
+          <p className="py-3">
+            Fill the form with your requirements & we will get back to you!
+          </p>
           <div className="">
-            <p>Name</p>
+            <p className="font-semibold">Name</p>
             <input className="w-full bg-[#7AB3E84A] focus:outline-[#095DAB] p-3 px-4 rounded-full" />
           </div>
           <div>
-            <p>Company Name</p>
+            <p className="font-semibold">Company Name</p>
             <input className="w-full bg-[#7AB3E84A] focus:outline-[#095DAB] p-3 px-4 rounded-full" />
           </div>
           <div>
-            <p>Phone number</p>
+            <p className="font-semibold">Phone number</p>
             {/* <input className="bg-[#7AB3E84A] focus:outline-[#095DAB] p-3 px-4 rounded-full" /> */}
             <div className="flex text-black">
-              <div className="country-code font-semibold text-[#095DAB] bg-[#75CDFFA1] p-3 rounded-s-full">
+              <div className="country-code font-semibold text-[#095DAB] bg-[#75CDFFA1] p-2 flex items-center rounded-s-full">
                 +
                 <input
                   type="number"
@@ -50,11 +52,11 @@ const ContactSection = () => {
             </div>
           </div>
           <div>
-            <p>E-mail ID</p>
+            <p className="font-semibold">E-mail ID</p>
             <input className="w-full bg-[#7AB3E84A] focus:outline-[#095DAB] p-3 px-4 rounded-full" />
           </div>
           <div>
-            <p>Additional Details/ Requirements</p>
+            <p className="font-semibold">Additional Details/ Requirements</p>
             <textarea className="bg-[#7AB3E84A] focus:outline-[#095DAB] p-3 px-4 rounded-xl w-full" />
           </div>
         </div>
@@ -70,21 +72,22 @@ const ContactSection = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          <div className="break-all sm:break-words bg-[#095DAB] p-6 rounded-b-xl text-white text-lg grid  gap-3 md:grid-cols-2">
+          <div className="break-all sm:break-words bg-[#095DAB] p-6 rounded-b-xl text-white text-normal md:text-lg grid  gap-3 md:grid-cols-2">
             <div className="flex flex-col justify-start gap-4">
-              <p>Telephone &#45; 033-22488210/ 8118/ 1620</p>
               <div>
-                <p>Email &#45; abhishek@transconelectronics.com</p>
-                <p>
-                  {" "}
-                  <span className="invisible">Email &#45; </span>{" "}
-                  kunal@transconelectronics.com
-                </p>
+                <p>Telephone :</p>
+                <p>033-22488210/ 8118/ 1620</p>
+              </div>
+              <div>
+                <p>Email :</p>
+                <p>abhishek@transconelectronics.com</p>
+                <p>kunal@transconelectronics.com</p>
               </div>
             </div>
             <div className="md:text-right">
-              Transcon Electronics Pvt Ltd.
-              <p>10, Govt. Place East 2nd Floor, Ezra Mansion Kolkata-700069</p>
+              <p>Transcon Electronics Pvt Ltd.</p>
+              <p>10, Govt. Place East 2nd Floor, Ezra Mansion</p>
+              <p>Kolkata-700069</p>
             </div>
           </div>
         </div>

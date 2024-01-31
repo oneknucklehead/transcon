@@ -5,7 +5,7 @@ const FooterSection = () => {
   return (
     <div className="bg-[#095DAB]">
       <Container>
-        <div className="py-8 flex flex-wrap gap-10 font-thin text-lg justify-between w-full bg-[#095DAB] text-white">
+        <div className="py-8 flex flex-wrap gap-10 font-thin text-normal md:text-lg justify-between w-full bg-[#095DAB] text-white">
           <div>
             <h3 className="text-3xl font-bold">Our Head Office</h3>
             <div className="py-3">
@@ -69,9 +69,8 @@ const FooterSection = () => {
               </div>
               <div>
                 <p>For General/Sales related email–</p>
-                <p>
-                  abhishek@transconelectronics.comkunal@transconelectronics.com
-                </p>
+                <p>abhishek@transconelectronics.com</p>
+                <p>kunal@transconelectronics.com</p>
               </div>
             </div>
           </div>
