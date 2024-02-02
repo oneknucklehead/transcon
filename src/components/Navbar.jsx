@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import imgSrc from "../assets/images/logo.png";
 import Container from "./Container";
+import { Link } from "react-scroll";
+
+import "../assets/styles/Navbar.css";
+
 const Navbar = () => {
   const [openSidebar, setOpenSidebar] = useState(false);
 
@@ -10,28 +14,93 @@ const Navbar = () => {
         <div
           className="bg-[#095DAB] flex p-4 rounded-xl mt-4 justify-between items-center"
           style={{
-            boxShadow: "0px 0px 20px 0px rgba(122,179,232,0.8)",
+            boxShadow: "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
           }}
         >
           <div>
             <a href="#" className="text-2xl font-bold text-gray-800">
-              <span className="w-[120px]">
-                <img className="w-[120px]" src={imgSrc} alt="Transcon logo" />
-              </span>
+              <Link to="home" smooth={true} duration={500}>
+                <span className="w-[120px]">
+                  <img className="w-[120px]" src={imgSrc} alt="Transcon logo" />
+                </span>
+              </Link>
             </a>
           </div>
           <div>
             <ul className="text-sm lg:text-lg hidden md:flex items-center space-x-4 lg:space-x-8 text-white">
-              <li className="p-1">Products</li>
-              <li className="p-1">About Us</li>
-              <li className="p-1">Trust</li>
-              <li className="p-1">Clients</li>
-              <li className="p-1">Contact</li>
+              <li className="p-1">
+                <Link
+                  to="products"
+                  smooth={true}
+                  duration={500}
+                  activeClass="font-bold"
+                  spy={true}
+                  offset={-62}
+                >
+                  Products
+                </Link>
+              </li>
+              <li className="p-1">
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  activeClass="font-semibold"
+                  spy={true}
+                  offset={-100}
+                >
+                  About Us
+                </Link>
+              </li>
+              <li className="p-1">
+                <Link
+                  to="stats"
+                  smooth={true}
+                  duration={500}
+                  activeClass="font-semibold"
+                  spy={true}
+                  offset={-100}
+                >
+                  Trust
+                </Link>
+              </li>
+              <li className="p-1">
+                <Link
+                  to="customers"
+                  smooth={true}
+                  duration={500}
+                  activeClass="font-semibold"
+                  spy={true}
+                  offset={-100}
+                >
+                  Clients
+                </Link>
+              </li>
+              <li className="p-1">
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  activeClass="font-semibold"
+                  spy={true}
+                  offset={-100}
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="hidden md:flex">
             <button className="text-sm lg:text-lg text-[#000] bg-white py-2 px-3 rounded-lg font-bold">
-              Book Now!
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                Book Now!
+              </Link>
             </button>
           </div>
           <div className="flex items-center justify-center md:hidden">
@@ -45,19 +114,64 @@ const Navbar = () => {
                   <div className="w-6 h-1 -rotate-45 absolute bg-white"></div>
                 </button>
                 <li className="flex justify-center w-full py-4 hover:bg-[#7AB3E84A]">
-                  Products
+                  <Link
+                    to="products"
+                    smooth={true}
+                    duration={500}
+                    activeClass="font-semibold"
+                    spy={true}
+                    offset={-70}
+                  >
+                    Products
+                  </Link>
                 </li>
                 <li className="flex justify-center w-full py-4 hover:bg-[#7AB3E84A]">
-                  About Us
+                  <Link
+                    to="about"
+                    smooth={true}
+                    duration={500}
+                    activeClass="font-semibold"
+                    spy={true}
+                    offset={-120}
+                  >
+                    About Us
+                  </Link>
                 </li>
                 <li className="flex justify-center w-full py-4 hover:bg-[#7AB3E84A]">
-                  Trust
+                  <Link
+                    to="stats"
+                    smooth={true}
+                    duration={500}
+                    activeClass="font-semibold"
+                    spy={true}
+                    offset={-120}
+                  >
+                    Trust
+                  </Link>
                 </li>
                 <li className="flex justify-center w-full py-4 hover:bg-[#7AB3E84A]">
-                  Clients
+                  <Link
+                    to="customers"
+                    smooth={true}
+                    duration={500}
+                    activeClass="font-semibold"
+                    spy={true}
+                    offset={-120}
+                  >
+                    Clients
+                  </Link>
                 </li>
                 <li className="flex justify-center w-full py-4 hover:bg-[#7AB3E84A]">
-                  Contact
+                  <Link
+                    to="contact"
+                    smooth={true}
+                    duration={500}
+                    activeClass="font-semibold"
+                    spy={true}
+                    offset={-85}
+                  >
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </button>

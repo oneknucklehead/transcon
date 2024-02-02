@@ -14,16 +14,30 @@ import FooterSection from "./sections/FooterSection";
 const App = () => {
   return (
     <>
-      <div className="overflow-hidden relative">
+      <div className="overflow-hidden relative font-montserrat">
         <Navbar />
-        <HomeSection />
-        <ProductSection />
-        <AboutSection />
-        <StatsSection />
+        <section id="home" className="">
+          <HomeSection />
+        </section>
+        <section id="products">
+          <ProductSection />
+        </section>
+        <section id="about" className="my-10">
+          <AboutSection />
+        </section>
+        <section id="stats" className="my-10">
+          <StatsSection />
+        </section>
+        <section id="connect">
+          <ConnectSection />
+        </section>
+        <section id="customers">
+          <CustomersSection />
+        </section>
+        <section id="contact">
+          <ContactSection />
+        </section>
         {/* <VideoSection /> */}
-        <ConnectSection />
-        <CustomersSection />
-        <ContactSection />
         <FooterSection />
       </div>
     </>

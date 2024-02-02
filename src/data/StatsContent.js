@@ -10,12 +10,12 @@ const stats = [
     },
     {
         key: 2,
-        src: img2,
+        src: img3,
         description: "Authorised dealers of trusted premium brands"
     },
     {
         key: 3,
-        src: img3,
+        src: img2,
         description: "Continued Service and Support for all Products"
     }
 ];

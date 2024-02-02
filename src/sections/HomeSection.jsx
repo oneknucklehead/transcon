@@ -57,11 +57,11 @@ const HomeSection = () => {
           </div>
         </Container>
         <div className="w-full flex mt-8 xl:mt-0 xl:absolute -bottom-8 justify-evenly">
-          <div className="bg-[#095DAB] w-[80%] lg:w-[70%] xl:w-[50%] rounded-xl py-4 px-3 flex flex-wrap gap-4 items-center justify-around">
-            <span className="w-20 md:w-28">
+          <div className="bg-[#095DAB] py-2 w-[80%] rounded-xl px-3 flex flex-wrap gap-4 items-center justify-around">
+            <span className="w-20 md:w-24">
               <img className="" src={company1} alt="apple logo" />
             </span>
-            <span className="w-10 md:w-20">
+            <span className="w-10 md:w-12">
               <img className="w-20" src={company2} alt="microsoft logo" />
             </span>
             <span className="w-28">

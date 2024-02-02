@@ -1,9 +1,9 @@
 //*******IMAGE IMPORTS********//
 // **************DESIGN JET********* //
 import dj1 from "../assets/images/products/designjet1.png";
-import dj2 from "../assets/images/products/designjet1.png";
-import dj3 from "../assets/images/products/designjet1.png";
-import dj4 from "../assets/images/products/designjet1.png";
+import dj2 from "../assets/images/products/designjet2.png";
+import dj3 from "../assets/images/products/designjet3.png";
+import dj4 from "../assets/images/products/designjet4.png";
 
 // ************Wall solutions********* //
 import wall1 from "../assets/images/products/wallsolutions1.jpg";

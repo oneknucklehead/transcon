@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 // import Swiper core and required modules
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import customers from "../data/CustomerContent";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../assets/styles/Carousel.css";
@@ -65,6 +65,7 @@ const ProductCarousel = () => {
             // pagination={{
             //   clickable: true,
             // }}
+            // navigation={true}
             autoplay={{
               delay: 2500,
             }}
@@ -86,14 +87,15 @@ const ProductCarousel = () => {
                 autoplay: false,
               },
             }}
-            modules={[Pagination, Autoplay]}
+            modules={[
+              Pagination,
+              // Navigation,
+              Autoplay,
+            ]}
             className="mySwiper"
           >
             {products.map(({ key, src, title, description }) => (
-              <SwiperSlide
-                key={key}
-                className="flex justify-center items-center"
-              >
+              <SwiperSlide key={key} className="flex">
                 <ProductCard
                   key={key}
                   src={src}

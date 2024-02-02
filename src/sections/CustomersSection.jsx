@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import CarouselComp from "../components/CarouselComp";
 import NewCarousel from "../components/NewCarousel";
+import { Link } from "react-scroll";
 const CustomersSection = () => {
   return (
     <div className="bg-[#095DAB] py-8">
@@ -14,9 +15,17 @@ const CustomersSection = () => {
           {/* <CarouselComp /> */}
           <NewCarousel />
           {/* </div> */}
-          <button className="bg-white font-semibold py-3 px-6 rounded-full">
-            Get in touch!
-          </button>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            <button className="bg-white font-semibold py-3 px-6 rounded-full">
+              Get in touch!
+            </button>
+          </Link>
         </div>
       </div>
     </div>

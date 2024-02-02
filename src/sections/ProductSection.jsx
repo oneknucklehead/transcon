@@ -18,64 +18,69 @@ import ProductCard from "../components/ProductCard";
 import ProductCarousel from "../components/ProductCarousel.jsx";
 const ProductSection = () => {
   return (
-    <Container>
-      <div className="pt-14 pb-8 sm:pb-24 text-lg font-semibold text-center">
-        Empower your office with state-of-the-art IT solutions. We are the
-        foremost provider of IT supplies, automation equipment, and services,
-        ensuring seamless productivity and innovation for your workplace.
-      </div>
-      {/* *******MAIN PRODUCT********* */}
-      <div>
-        <div className="grid grid-cols-1 sm:grid-cols-12 gap-10 py-8">
-          <div className="sm:col-span-8">
-            <div className="relative p-8 bg-[#EAEAEA] rounded-xl">
-              {/* <div className="col-span-1 h-full flex flex-col justify-end"> */}
-              <img
-                className="sm:max-w-[400px] sm:float-right sm:-mt-28 xl:-mt-32 sm:-mr-16"
-                src={mainImg}
-                alt="printer"
-              />
-              <p className="hidden 2xl:block 2xl:invisible">asdad</p>
-              <p className="hidden 2xl:block 2xl:invisible">asdad</p>
-              <p className="hidden xl:block xl:invisible">asdad</p>
-              <p className="hidden xl:block xl:invisible">asdad</p>
-              <p className="hidden xl:block xl:invisible">asdad</p>
+    <>
+      <Container>
+        <div className="pt-14 pb-8 sm:pb-24 text-lg font-semibold text-center">
+          Empower your office with state-of-the-art IT solutions. We are the
+          foremost provider of IT supplies, automation equipment, and services,
+          ensuring seamless productivity and innovation for your workplace.
+        </div>
+        {/* *******MAIN PRODUCT********* */}
+        <div>
+          <div className="grid items-center grid-cols-1 sm:grid-cols-12 gap-10 py-8">
+            <div className="sm:col-span-8">
+              <div className="relative p-8 bg-[#EAEAEA] rounded-xl">
+                {/* <div className="col-span-1 h-full flex flex-col justify-end"> */}
+                <img
+                  className="sm:max-w-[400px] sm:float-right sm:-mt-28 xl:-mt-32 sm:-mr-16"
+                  src={mainImg}
+                  alt="printer"
+                />
+                <p className="hidden 2xl:block 2xl:invisible">asdad</p>
+                <p className="hidden 2xl:block 2xl:invisible">asdad</p>
+                <p className="hidden xl:block xl:invisible">asdad</p>
+                <p className="hidden xl:block xl:invisible">asdad</p>
+                <p className="hidden xl:block xl:invisible">asdad</p>
 
-              <p className="hidden md:invisible">asdad</p>
-              <p className="hidden sm:invisible">asdad</p>
-              <p className="hidden sm:invisible">asdad</p>
-              <p className="hidden sm:invisible">asdad</p>
-              <p className="hidden sm:invisible">asdad</p>
-              <p className="hidden sm:invisible">asdad</p>
-              <p className="hidden sm:invisible">asdad</p>
-              <h2 className="font-bold text-2xl sm:text-4xl">
-                Multi-Function Laser Printer (Mono & Colour)
+                <p className="hidden md:invisible">asdad</p>
+                <p className="hidden sm:invisible">asdad</p>
+                <p className="hidden sm:invisible">asdad</p>
+                <p className="hidden sm:invisible">asdad</p>
+                <p className="hidden sm:invisible">asdad</p>
+                <p className="hidden sm:invisible">asdad</p>
+                <p className="hidden sm:invisible">asdad</p>
+                <h2 className="font-bold text-2xl sm:text-4xl">
+                  Multi-Function Laser Printer
+                  <br /> (Mono & Colour)
+                </h2>
+                <p className="text-sm sm:text-lg lowercase">
+                  SIMPLE, SECURE AND CONVENIENT PRINTING SOLUTIONS.
+                </p>
+                {/* </div> */}
+                {/* <div className="absolute -mt-24 -right-24 ">
+                <span>
+                  <img src={mainImg} alt="printer" />
+                </span>
+              </div> */}
+                {/* <div className="">
+                <span>
+                  <img src={mainImg} alt="printer" />
+                </span>
+              </div> */}
+              </div>
+            </div>
+            <div className=" sm:col-span-4">
+              <h2 className="font-bold break-words text-4xl md:text-5xl">
+                The best equipment available for your office or remote workers.
               </h2>
-              <p className="text-sm sm:text-lg">
-                SIMPLE, SECURE AND CONVENIENT PRINTING SOLUTIONS.
-              </p>
-              {/* </div> */}
-              {/* <div className="absolute -mt-24 -right-24 ">
-                <span>
-                  <img src={mainImg} alt="printer" />
-                </span>
-              </div> */}
-              {/* <div className="">
-                <span>
-                  <img src={mainImg} alt="printer" />
-                </span>
-              </div> */}
             </div>
           </div>
-          <div className=" sm:col-span-4">
-            <h2 className="font-bold break-words text-4xl md:text-5xl">
-              The best equipment available for your office or remote workers.
-            </h2>
-          </div>
         </div>
+      </Container>
+      <div className="w-[96%] mx-auto">
+        <ProductCarousel />
       </div>
       {/* <div> */}
-      <ProductCarousel />
       {/* <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -114,7 +119,7 @@ const ProductSection = () => {
           </div>
         ))}
       </div> */}
-    </Container>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
+import { Link } from "react-scroll";
 
 const ConnectSection = () => {
   return (
@@ -12,9 +13,17 @@ const ConnectSection = () => {
           Connect with us today for personalized solutions and exceptional
           service. Begin your success journey with our high tech solutions.
         </p>
-        <button className="text-white font-semibold bg-[#095DAB] py-3 px-6 rounded-full">
-          CONTACT NOW!
-        </button>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-100}
+        >
+          <button className="text-white font-semibold bg-[#095DAB] py-3 px-6 rounded-full">
+            CONTACT NOW!
+          </button>
+        </Link>
       </div>
     </Container>
   );

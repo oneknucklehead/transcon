@@ -5,10 +5,10 @@ const AboutSection = () => {
   return (
     <div className="wrapper">
       <Container>
-        <div className="break-words w-full md:w-[80%] mx-auto py-8">
-          <div className="grid grid-cols-12 justify-between rounded-lg md:gap-10 bg-[#095DAB] py-3 md:py-5 px-6 md:px-10">
-            <div className="flex text-lg md:text-xl pb-6 font-thin flex-col justify-center col-span-12  text-white">
-              <h3 className="font-bold text-4xl md:text-6xl pb-4">About Us</h3>
+        <div className="break-words w-full md:w-[80%] mx-auto">
+          <div className="grid grid-cols-12 justify-between rounded-lg bg-[#095DAB] py-3 md:py-5 px-6 md:px-10">
+            <div className="flex gap-4 text-lg md:text-xl pb-6 font-thin flex-col justify-center col-span-12  text-white">
+              <h3 className="font-bold text-4xl md:text-6xl">About Us</h3>
               {/* <div className=""> */}
               <p>
                 Transcon Electronics Pvt Ltd is an ISO 9001 certified company
