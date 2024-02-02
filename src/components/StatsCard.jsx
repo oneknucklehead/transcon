@@ -7,7 +7,7 @@ const StatsCard = ({ src = imgSrc, description }) => {
   return (
     // <div>
     <div className="bg-[#D9D9D9] rounded-lg p-8 flex flex-col justify-around items-center h-full">
-      <img className="" src={src} alt={description} />
+      <img className="px-10" src={src} alt={description} />
 
       <h3 className="text-lg text-center md:text-xl font-semibold pt-4">
         {description}
