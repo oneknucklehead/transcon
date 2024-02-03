@@ -11,7 +11,8 @@ const ConnectSection = () => {
         </h2>
         <p className="text-xl text-center">
           Connect with us today for personalized solutions and exceptional
-          service. Begin your success journey with our high tech solutions.
+          service.
+          <br /> Begin your success journey with our high tech solutions.
         </p>
         <Link
           to="contact"

@@ -28,6 +28,9 @@ const App = () => {
         <section id="stats" className="my-10">
           <StatsSection />
         </section>
+        <section id="video" className="">
+          <VideoSection />
+        </section>
         <section id="connect">
           <ConnectSection />
         </section>
@@ -37,7 +40,6 @@ const App = () => {
         <section id="contact">
           <ContactSection />
         </section>
-        {/* <VideoSection /> */}
         <FooterSection />
       </div>
     </>
