@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
           <div>
             <ul className="text-sm lg:text-lg hidden md:flex items-center space-x-4 lg:space-x-8 text-white">
-              <li className="p-1">
+              <li className="p-1 cursor-pointer">
                 <Link
                   to="products"
                   smooth={true}
@@ -40,7 +40,7 @@ const Navbar = () => {
                   Products
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-1 cursor-pointer">
                 <Link
                   to="about"
                   smooth={true}
@@ -52,7 +52,7 @@ const Navbar = () => {
                   About Us
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-1 cursor-pointer">
                 <Link
                   to="stats"
                   smooth={true}
@@ -64,7 +64,7 @@ const Navbar = () => {
                   Trust
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-1 cursor-pointer">
                 <Link
                   to="customers"
                   smooth={true}
@@ -76,7 +76,7 @@ const Navbar = () => {
                   Clients
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-1 cursor-pointer">
                 <Link
                   to="contact"
                   smooth={true}
