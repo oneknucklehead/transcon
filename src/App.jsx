@@ -19,7 +19,13 @@ const App = () => {
         <section id="home" className="">
           <HomeSection />
         </section>
-        <section id="products">
+        <section id="video" className="mt-20">
+          <VideoSection />
+        </section>
+        <section id="connect">
+          <ConnectSection />
+        </section>
+        <section id="products" className="-mt-10">
           <ProductSection />
         </section>
         <section id="about" className="my-10">
@@ -28,12 +34,7 @@ const App = () => {
         <section id="stats" className="my-10">
           <StatsSection />
         </section>
-        <section id="video" className="">
-          <VideoSection />
-        </section>
-        <section id="connect">
-          <ConnectSection />
-        </section>
+
         <section id="customers">
           <CustomersSection />
         </section>

@@ -25,7 +25,8 @@ const CustomersSection = () => {
           {/* <CarouselComp /> */}
           <NewCarousel />
           {/* </div> */}
-          <div className="grid">
+
+          {/* <div className="grid">
             <Swiper
               slidesPerView={2}
               spaceBetween={30}
@@ -215,7 +216,7 @@ const CustomersSection = () => {
                 </div>
               </SwiperSlide>
             </Swiper>
-          </div>
+          </div> */}
 
           <Link
             to="contact"

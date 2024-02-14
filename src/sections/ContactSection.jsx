@@ -19,7 +19,7 @@ const ContactSection = () => {
   const [messageErr, setMessageErr] = useState(null);
   const [loader, setLoader] = useState(false);
   const [result, setResult] = useState(null);
-  const [resultBorder, setResultBorder] = useState("#00a0d2");
+  // const [resultBorder, setResultBorder] = useState("#00a0d2");
 
   const handleSubmit = () => {
     setResult(null);
@@ -51,7 +51,7 @@ const ContactSection = () => {
     setLoader(true);
     axios.defaults.headers.post["Content-Type"] = "application/json";
     axios
-      .post("https://formsubmit.co/ajax/c097507d006bda722a7bf29b9ae9569f", {
+      .post("https://formsubmit.co/ajax/abhishek@transconelectronics.com", {
         name: name,
         companyName: compName,
         phone: "+91" + phone,
@@ -208,12 +208,13 @@ const ContactSection = () => {
           <div className="break-all sm:break-words bg-[#095DAB] p-6 rounded-b-xl text-white text-normal md:text-lg grid">
             <div className="">
               {/* <p> */}
-              Transcon Electronics Pvt Ltd.
+              <p>Transcon Electronics Pvt Ltd.</p>
+              <p>Suite no:- 205, 2nd floor, Center Point Building</p>
               {/* </p> */}
               {/* <p> */}
-              10, Govt. Place East 2nd Floor, Ezra Mansion
+              <p>21 Hemanta Basu Sarani</p>
               {/* </p> */}
-              <p>Kolkata-700069</p>
+              <p>Kolkata - 700001 (West Bengal)</p>
             </div>
           </div>
           <div className="p-5">

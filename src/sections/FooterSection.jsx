@@ -61,8 +61,8 @@ const FooterSection = () => {
           <div>
             <h3 className="text-3xl font-bold">Talk to us</h3>
             <div className="py-3 flex flex-col gap-2">
-              <p>Telephone– 033-22488210/8118/1620</p>
-              <p>Fax–033-22486604</p>
+              <p>For Sales – 033-22488210/8118</p>
+              <p>For Support – 033-22303844/22102537</p>
               <div>
                 <p>For service related email–</p>
                 <p>service@transconelectronics.com</p>
@@ -70,7 +70,6 @@ const FooterSection = () => {
               <div>
                 <p>For General/Sales related email–</p>
                 <p>abhishek@transconelectronics.com</p>
-                <p>kunal@transconelectronics.com</p>
               </div>
             </div>
           </div>

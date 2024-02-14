@@ -67,7 +67,7 @@ const products = [
         key: 3,
         src: [disp1, disp2, disp3],
         title: "Professional Display Panel (Non-touch & Interactive)",
-        description: "Panasonic LCD and LED professional that deliver an immersive experience and provide an unparalleled visual experience with a full range of sizes and options."
+        description: "Panasonic LCD and LED professional displays that deliver an immersive experience and provide an unparalleled visual experience with a full range of sizes and options."
     },
     {
         key: 4,
@@ -84,7 +84,7 @@ const products = [
     {
         key: 6,
         src: [vid1, vid2],
-        title: "Video Door Phone",
+        title: "Video Door Phones",
         description: "a new era for business communication systems, thanks to a built-in camera and speakerphone, offering simultaneous video and high definition audio."
     },
     {
@@ -109,7 +109,7 @@ const products = [
         key: 10,
         src: [uni1, uni2, uni3, uni4,],
         title: "UNIFIED COMMUNICATION SOLUTIONS BY KONICA MINOLTA",
-        description: "Meet the future video conferencing Solution"
+        description: "Meet the future video conferencing solutions, 360 degree camera and interactive monitors"
     }
 ];
 

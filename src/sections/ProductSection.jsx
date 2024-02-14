@@ -22,7 +22,9 @@ const ProductSection = () => {
       <Container>
         <div className="pt-14 pb-8 sm:pb-24 text-lg font-semibold text-center">
           Empower your office with state-of-the-art IT solutions. We are the
-          foremost provider of IT supplies, automation equipment, and services,
+          foremost provider of IT supplies, office automation equipments,
+          communication products, A3 multifunction printers, large format
+          printers, professional displays, surveillance products and services,
           ensuring seamless productivity and innovation for your workplace.
         </div>
         {/* *******MAIN PRODUCT********* */}
@@ -50,7 +52,7 @@ const ProductSection = () => {
                 <p className="hidden sm:invisible">asdad</p>
                 <p className="hidden sm:invisible">asdad</p>
                 <h2 className="font-bold text-2xl sm:text-4xl">
-                  Multi-Function Laser Printer
+                  A3 Multi-Function Laser Printers
                   <br /> (Mono & Colour)
                 </h2>
                 <p className="text-sm sm:text-lg lowercase">

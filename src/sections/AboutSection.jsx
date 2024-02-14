@@ -13,15 +13,20 @@ const AboutSection = () => {
               <p>
                 Transcon Electronics Pvt Ltd is an ISO 9001 certified company
                 and was established in 1987 with the aim of distributing office
-                automation equipments in Eastern India. In a span of about 30
+                automation equipments in Eastern India. In a span of about 36
                 years we have emerged as the market leaders in this segment
                 catering to West Bengal, Orissa, Bihar, Assam, Jharkhand and
                 North eastern states.
               </p>
               <p>
-                We have also expanded to southern states like Telengana and
-                Andhra Pradesh. We are the exclusive distributor and service
-                provider for brands like Panasonic, Konica Minolta and Delta.
+                Catering to more than 5000+ satisfied customers, Our company
+                provides best in its class services and are committed towards
+                customer satisfaction.
+              </p>
+              <p>
+                We are the exclusive distributors and service providers for
+                brands like Panasonic, Konica Minolta, Delta, HP, ATDSC and
+                more.
               </p>
 
               {/* </div> */}

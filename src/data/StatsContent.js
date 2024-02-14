@@ -6,7 +6,7 @@ const stats = [
     {
         key: 1,
         src: img1,
-        description: `Over 30 years of excellent service and thousands of
+        description: `Over 36 years of excellent service and thousands of
          Happy customers`
     },
     {

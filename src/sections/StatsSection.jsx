@@ -21,13 +21,13 @@ const StatsSection = () => {
         <div className="grid gap-8 items-stretch h-full justify-items-stretch grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="bg-[#D9D9D9] rounded-lg p-8 flex flex-col justify-around items-center h-full">
             <img
-              className="w-[240px] h-[160px]"
+              className=" w-[90%] 2xl:w-auto h-auto 2xl:h-[160px]"
               src={img1}
               alt={"statistics1"}
             />
 
             <h3 className="text-lg text-center md:text-xl font-semibold pt-4">
-              Over 30 years of excellent service and thousands of Happy
+              Over 36 years of excellent service and thousands of Happy
               customers
             </h3>
           </div>
