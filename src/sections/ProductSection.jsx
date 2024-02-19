@@ -28,13 +28,13 @@ const ProductSection = () => {
           ensuring seamless productivity and innovation for your workplace.
         </div>
         {/* *******MAIN PRODUCT********* */}
-        <div>
-          <div className="grid items-center grid-cols-1 sm:grid-cols-12 gap-10 py-8">
-            <div className="sm:col-span-8">
+        <div className="max-w-[90%] xl:max-w-[70%] 2xl:max-w-[60%] mx-auto">
+          <div className="grid items-center grid-cols-1 gap-10 py-8">
+            <div className="">
               <div className="relative p-8 bg-[#EAEAEA] rounded-xl">
                 {/* <div className="col-span-1 h-full flex flex-col justify-end"> */}
                 <img
-                  className="sm:max-w-[400px] sm:float-right sm:-mt-28 xl:-mt-32 sm:-mr-16"
+                  className="md:max-w-[400px] md:float-right sm:-mt-28 xl:-mt-32 sm:-mr-16"
                   src={mainImg}
                   alt="printer"
                 />
@@ -71,11 +71,11 @@ const ProductSection = () => {
               </div> */}
               </div>
             </div>
-            <div className=" sm:col-span-4">
+            {/* <div className=" sm:col-span-4">
               <h2 className="font-bold break-words text-4xl md:text-5xl">
-                The best equipment available for your office or remote workers.
+                The best equipment available for your office.
               </h2>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>

@@ -19,7 +19,7 @@ const ContactSection = () => {
   const [messageErr, setMessageErr] = useState(null);
   const [loader, setLoader] = useState(false);
   const [result, setResult] = useState(null);
-  // const [resultBorder, setResultBorder] = useState("#00a0d2");
+  const [resultBorder, setResultBorder] = useState("#00a0d2");
 
   const handleSubmit = () => {
     setResult(null);
@@ -50,8 +50,9 @@ const ContactSection = () => {
     setMessageErr(null);
     setLoader(true);
     axios.defaults.headers.post["Content-Type"] = "application/json";
+    // abhishek@transconelectronics.com
     axios
-      .post("https://formsubmit.co/ajax/abhishek@transconelectronics.com", {
+      .post("https://formsubmit.co/ajax/zohebahmed1542@gmail.com", {
         name: name,
         companyName: compName,
         phone: "+91" + phone,
@@ -160,7 +161,7 @@ const ContactSection = () => {
           <div>
             <p className="py-2 pl-4">Additional Details/ Requirements</p>
             <textarea
-              rows={4}
+              rows={6}
               onChange={(e) => setMessage(e.target.value)}
               name="message"
               className="bg-[#7AB3E84A] focus:outline-[#095DAB] p-3 px-4 rounded-xl w-full"
@@ -170,20 +171,20 @@ const ContactSection = () => {
             )}
           </div>
           <span>{result}</span>
-          <div className="w-[50%] py-2">
+          <div className="w-[60%] 2xl:w-[50%] py-2">
             <button
               onClick={handleSubmit}
-              className="bg-[#095DAB] text-white w-full px-8 py-3 font-semibold text-xl rounded-full"
+              className="bg-[#095DAB] text-white w-full px-8 py-3 font-semibold text-lg 2xl:text-xl rounded-full"
             >
               {loader ? (
-                <div>
+                <div className="">
                   <span
                     className="mr-2 inline-block h-5 w-5 animate-spin rounded-full border-[3px] border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
                     role="status"
                   >
-                    <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+                    {/* <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
                       Loading...
-                    </span>
+                    </span> */}
                   </span>
                   <span>Submitting..</span>
                 </div>
@@ -195,12 +196,20 @@ const ContactSection = () => {
         </div>
         {/* MAP IFRAME */}
         <div className="focus:outline-none">
-          <iframe
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.2957961891266!2d88.34676447599172!3d22.568037633136235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02765321b3ac7b%3A0xdc7e22511fb5d25a!2sTranscon%20Electronics%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1705925523411!5m2!1sen!2sin"
-            //   width="600"
             height="518"
             className="w-full rounded-t-xl focus:outline-none"
-            //   style={{ border: "0" }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d460.5343537824586!2d88.3488836443522!3d22.568822134775807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027715efc6e2a9%3A0xf10508611ea0d9e3!2sCentre%20point!5e0!3m2!1sen!2sin!4v1707996437002!5m2!1sen!2sin"
+            // width="600"
+            height="512"
+            className="w-full rounded-t-xl focus:outline-none"
+            // style="border:0;"
             allowfullscreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

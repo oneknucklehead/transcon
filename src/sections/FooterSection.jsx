@@ -10,9 +10,10 @@ const FooterSection = () => {
             <h3 className="text-3xl font-bold">Our Head Office</h3>
             <div className="py-3">
               <p>Transcon Electronics Pvt Ltd.</p>
-              <p>10, Govt. Place East 2nd Floor, Ezra</p>
-              <p>Mansion Kolkata-700069 Beside Great Eastern Lalit Hotel</p>
-              <div className="flex gap-4 pt-2 flex-wrap">
+              <p>Suite no:- 205, 2nd floor, Center Point Building</p>
+              <p>21 Hemanta Basu Sarani</p>
+              <p>Kolkata - 700001 (West Bengal)</p>
+              <div className="flex gap-4 mt-5 flex-wrap">
                 <span>
                   <svg
                     width="30"
