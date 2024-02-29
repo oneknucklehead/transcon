@@ -48,7 +48,13 @@ import uni2 from "../assets/images/products/uni2.png";
 import uni3 from "../assets/images/products/uni3.png";
 import uni4 from "../assets/images/products/uni4.png";
 
+// ***********AIO**************************** //
+import aio from "../assets/images/products/aio.jpg";
 
+// ***********IFPD**************************** //
+import ifpd1 from "../assets/images/products/ifpd1.jpg";
+import ifpd2 from "../assets/images/products/ifpd2.jpg";
+import ifpd3 from "../assets/images/products/ifpd3.jpg";
 
 const products = [
     {
@@ -107,9 +113,22 @@ const products = [
     },
     {
         key: 10,
-        src: [uni1, uni2, uni3, uni4,],
+        src: [uni1, uni2, uni3, uni4],
         title: "UNIFIED COMMUNICATION SOLUTIONS BY KONICA MINOLTA",
         description: "Meet the future video conferencing solutions, 360 degree camera and interactive monitors"
+    },
+    {
+        key: 11,
+        src: [aio],
+        title: "Delta brand AIO (all in one)",
+        description: "Delta All-in-One LED series – 120’’/138’’/150’’/165’’ large screens Displays."
+    }
+    ,
+    {
+        key: 12,
+        src: [ifpd1, ifpd2, ifpd3],
+        title: "Delta brand IFPD",
+        description: "Delta 4K-UHD Interactive Flat Panel Display Series – 65’’/75’’/86’’ Displays."
     }
 ];
 

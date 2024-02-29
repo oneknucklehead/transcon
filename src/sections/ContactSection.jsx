@@ -52,7 +52,7 @@ const ContactSection = () => {
     axios.defaults.headers.post["Content-Type"] = "application/json";
     // abhishek@transconelectronics.com
     axios
-      .post("https://formsubmit.co/ajax/zohebahmed1542@gmail.com", {
+      .post("https://formsubmit.co/ajax/9bc2b7eb8f5d2d1b2280db6c09c6e684", {
         name: name,
         companyName: compName,
         phone: "+91" + phone,
