@@ -36,10 +36,10 @@ import delta1 from "../assets/images/products/delta1.png";
 import delta2 from "../assets/images/products/delta2.jpg";
 
 // ************AUDIO VIDEO solutions************* //
-import audio1 from "../assets/images/products/audio1.png";
-import audio2 from "../assets/images/products/audio2.png";
-import audio3 from "../assets/images/products/audio3.png";
-import audio4 from "../assets/images/products/audio4.png";
+// import audio1 from "../assets/images/products/audio1.png";
+// import audio2 from "../assets/images/products/audio2.png";
+// import audio3 from "../assets/images/products/audio3.png";
+// import audio4 from "../assets/images/products/audio4.png";
 
 // ************UNIFIED SOLUTIONS**************** //
 
@@ -104,12 +104,6 @@ const products = [
         src: [delta1, delta2],
         title: "DELTA ACTIVE LED DISPLAY",
         description: "Deliver Higher brightness, better colour reproduction, and bezel-free seamless image."
-    },
-    {
-        key: 9,
-        src: [audio1, audio2, audio3, audio4],
-        title: "Professional Audio Visual Solutions",
-        description: "One stop Solution for all Audio & Video Needs for Class room, Board room, Auditorium and conference room."
     },
     {
         key: 10,

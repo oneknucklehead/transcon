@@ -222,6 +222,7 @@ const ContactSection = () => {
               {/* </p> */}
               {/* <p> */}
               <p>21 Hemanta Basu Sarani</p>
+              <p>Near Lalit Great Eastern Hotel</p>
               {/* </p> */}
               <p>Kolkata - 700001 (West Bengal)</p>
             </div>

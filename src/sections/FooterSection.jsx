@@ -12,6 +12,7 @@ const FooterSection = () => {
               <p>Transcon Electronics Pvt Ltd.</p>
               <p>Suite no:- 205, 2nd floor, Center Point Building</p>
               <p>21 Hemanta Basu Sarani</p>
+              <p>Near Lalit Great Eastern Hotel</p>
               <p>Kolkata - 700001 (West Bengal)</p>
               <div className="flex gap-4 mt-5 flex-wrap">
                 <span>

@@ -51,7 +51,8 @@ const ProductSection = () => {
                 <p className="hidden sm:invisible">asdad</p>
                 <p className="hidden sm:invisible">asdad</p>
                 <p className="hidden sm:invisible">asdad</p>
-                <h2 className="font-bold text-2xl sm:text-4xl">
+                <h2 className="font-bold capitalize text-2xl sm:text-4xl">
+                  Konica Minolta <br />
                   A3 Multi-Function Laser Printers
                   <br /> (Mono & Colour)
                 </h2>
@@ -79,9 +80,22 @@ const ProductSection = () => {
           </div>
         </div>
       </Container>
-      <div className="w-[96%] mx-auto">
+      {/* PRODUCT CAROUSEL */}
+      <div className="block lg:hidden w-[96%] mx-auto">
         <ProductCarousel />
       </div>
+      <Container>
+        <div className="w-[96%] gap-4 mx-auto hidden lg:grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+          {products.map(({ key, src, title, description }) => (
+            <ProductCard
+              key={key}
+              src={src}
+              title={title}
+              description={description}
+            />
+          ))}
+        </div>
+      </Container>
       {/* <div> */}
       {/* <Swiper
           slidesPerView={3}
