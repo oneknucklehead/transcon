@@ -27,7 +27,7 @@ const StatsSection = () => {
             />
 
             <h3 className="text-lg text-center md:text-xl font-semibold pt-4">
-              Over 36 years of excellent service and thousands of Happy
+              Over 34 years of excellent service and thousands of Happy
               customers
             </h3>
           </div>

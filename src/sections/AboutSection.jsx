@@ -12,7 +12,7 @@ const AboutSection = () => {
               {/* <div className=""> */}
               <p>
                 Transcon Electronics Pvt Ltd is an ISO 9001 certified company
-                and was established in 1987 with the aim of distributing office
+                and was established in 1990 with the aim of distributing office
                 automation equipments in Eastern India. In a span of about 34
                 years we have emerged as the market leaders in this segment
                 catering to West Bengal, Orissa, Bihar, Assam, Jharkhand and

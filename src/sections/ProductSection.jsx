@@ -85,7 +85,7 @@ const ProductSection = () => {
         <ProductCarousel />
       </div>
       <Container>
-        <div className="w-[96%] gap-4 mx-auto hidden lg:grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+        <div className="w-[96%] gap-4 justify-center items-center mx-auto hidden lg:grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           {products.map(({ key, src, title, description }) => (
             <ProductCard
               key={key}
